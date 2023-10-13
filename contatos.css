@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  'Montserrat' , sans-serif;
+}
+
+
+/* Cabeçalho da pagina  */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff9a6c;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+/* linkes que estão dentro do header  */
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 29px;
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    padding: 24px 80px 128px 80px ;
+   
+ }
+
+
+ /* Titulos  */
+ h1 {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 32px;
+ }
+
+ .button{
+    background-color: #ff725e;
+    padding: 50px 32px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+ }
+
+ .button_transparente {
+    background-color: transparent;
+    color: #ff725e;
+    padding: 16px 32px;
+    text-underline-offset: 4px;
+ }
+
+ .absolut {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+ }
+
+ .paragrafo{
+    text-align: center;
+ }
